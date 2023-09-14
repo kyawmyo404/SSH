@@ -72,7 +72,7 @@ echo ""
 echo -e "\033[1;37m◈────⪧  Y.Y.P SSH Servers ⪦────◈"
 echo ""
 echo "------------------------------------"
-printf " HCM Channel \n"
+printf "Developed the script by \n"
 echo "------------------------------------"
 echo ""
 
