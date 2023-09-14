@@ -1,8 +1,5 @@
 #!/bin/bash
-
 plain='\033[0m'
-
-#စာလုံးအရောင်များ(Server Message)
 red='\e[31m'    #အနီရောင်
 yellow='\e[33m' #အဝါရောင်
 gray='\e[90m'   #မီးခိုးရောင်
@@ -11,22 +8,10 @@ blue='\e[94m'   #အပြာရောင်
 magenta='\e[95m'#ပန်းခရမ်းရောင်
 cyan='\e[96m'   #စိမ်းပြာရောင်
 none='\e[0m'    #အရောင်မရှိ
-
-#Username နှင့် Password ပြောင်းရန်
 username="ypp26"
 password="ypp26"
-
-#SSH USER LIMIT သတ်မှတ်ရန်
 sshlimiter="1500"
-
-#ရက်ကန့်သက်ရန်(Qwiklab အတွက်မို့ 2-DAY ပုံသေထားရပါသည်)
 dias="2"
-
-#💠 Server Message ပြင်ရန်💠
-#Server-message အရွယ်အစား သတ်မှတ်ချက်
-# h6 သည် = စာလုံးအသေး ဖြစ်သည်
-# h4 သည် = စာလုံးအလတ် ဖြစ်သည်
-# h3 သည် = စာလုံးအကြီး  ဖြစ်သည
 servermessage="<h3><font color='red'>
 ◈──────⪧ Servers Messages ⪦ ───────◈
 </font></h3>
@@ -39,8 +24,6 @@ Used Count ◈──⪧ 1,500
 <h3><font color='red'>
 ◈──────⪧  SSH Public Key ⪦ ───────◈
 </font></h3>"
-#End
-#ဒီအောက်က စာတွေပြင်ရန်မလိုပါ🌺
 [[ $EUID -ne 0 ]] && echo -e "${red}Error: ${plain} You must use root user to run this script!\n" && exit 1
 
 sed -i 's/#\?AllowTcpForwarding .*/AllowTcpForwarding yes/' /etc/ssh/sshd_config && sed -i 's/#\?PasswordAuthentication .*/PasswordAuthentication yes/' /etc/ssh/sshd_config && sed -i 's/#\?Banner .*/Banner \/etc\/ssh\/gcp_404/' /etc/ssh/sshd_config && /etc/init.d/ssh restart;
@@ -79,18 +62,16 @@ echo -e "\033[1;32m                                                           "
 echo ""
 echo -e "\033[1;37m◈────⪧  Y.Y.P SSH Servers ⪦────◈"
 echo ""
-echo "     ◈────⪧  Y.Y.P SSH Servers ⪦────◈    "
-printf "                                         "
-printf "                Thank You                "
-printf "                                         "
-echo "          ──⪧═───────◇───────═⪦──         "
+echo "     ◈────⪧  Y.Y.P SSH Servers ⪦────◈"
+printf "                Thank You         "
+echo "      ──⪧═───────◇───────═⪦──"
 echo ""
 
 echo -e "${red}[-] ═────────────────────────────⪧◇⪦───────────────────────────═        ${plain}"
 echo -e "${green}                                                                       ${plain}"
-echo -e "${red}                         I want time to stop                             ${plain}"
+echo -e "${yellow}                      I want time to stop                             ${plain}"
 echo -e "${green}                                                                       ${plain}"
-echo -e "${red}             Because I always want to be by your side                    ${plain}"
+echo -e "${blue}             Because I always want to be by your side                    ${plain}"
 echo -e "${green}                                                                       ${plain}"
 echo -e "${green}            ──────────⪧═───────◇───────═⪦──────────                   ${plain}"
 echo -e "${green}                                                                       ${plain}"
