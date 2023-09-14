@@ -52,6 +52,9 @@ echo -e "\n${red}GCP SINGAPORE SERVER 🇸🇬 ${plain}\n"
 #echo -e "Username: ${green}hha26${plain}, Password: ${green}hha26${plain}, SSH Host :  ${green}$(grep -oP '(?<=EXTERNAL_IP: ).*' <<<"$instance")${plain}"
 #echo -e "SSH Host :  ${green}$(grep -oP '(?<=EXTERNAL_IP: ).*' <<<"$instance")${plain}"echo ""
 echo ""
+echo -e "${red}[-]═──────────────────⪧◇⪦─────────────────═ [-] ${plain}"
+echo -e "${green}                  HCM Channel                  ${plain}"
+echo -e "${red}[-]═──────────────────⪧◇⪦─────────────────═ [-] ${plain}"
 #else
-#  echo -e "${red} " instance  ═──⪧  Firewall  ࿂  Done
+#  echo -e "${red} instance  ═──⪧  Firewall  ࿂  Done  "
 #fi
