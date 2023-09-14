@@ -46,8 +46,16 @@ fi
 
 #$(gcloud compute firewall-rules create firewall --direction=INGRESS --priority=1000 --network=default --action=ALLOW --rules=all --source-ranges=0.0.0.0/0) 
 #$(gcloud dataproc clusters create instance-1region asia-southeast1 --zone asia-southeast1-b --single-node --master-machine-type e2-standard-4 --master-boot-disk-size 500 --image-version 2.0-ubuntu18)
-echo -e "\n${red}GCP SINGAPORE SERVER 🇸🇬 ${plain}\n"
 
+echo -e "\n${red}GCP SINGAPORE SERVER 🇸🇬 ${plain}\n"
+#echo -e "Username: ${green}nkka404${plain}, Password: ${green}nkka404${plain}, SSH Host :  ${green}$(grep -oP '(?<=EXTERNAL_IP: ).*' <<<"$instance")${plain}"
+#echo -e "SSH Host :  ${green}$(grep -oP '(?<=EXTERNAL_IP: ).*' <<<"$instance")${plain}"echo ""
+
+
+echo -e "${red}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ${plain}"
+  echo -e "${GREEN}              Hcm Channel                 ${plain}"
+echo -e "${red}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ${plain}"
+echo ""
 
 
   echo -e "${yellow}[-] ═──────────────────⪧◇⪦─────────────────═ [-]                        ${plain}"
@@ -56,10 +64,11 @@ echo -e "\n${red}GCP SINGAPORE SERVER 🇸🇬 ${plain}\n"
   echo -e "${GREEN}                 Firewall - 1 Fw                                          ${plain}"
   echo -e "${GREEN}                 vm - done                                                ${plain}"
   echo -e "${GREEN}                 vm - done                                                ${plain}"
-  echo -e "${green}࿂ ═────⪧.  Now the thing is ready to use.  ⪦────═                        ${plain}"
+  echo -e "${GREEN}                                                                          ${plain}"
+  echo -e "${green}  ࿂  ═──⪧ Now the thing is ready to use ⪦──═                             ${plain}"
   echo -e "${GREEN}                                                                          ${plain}"
   echo -e "${yellow}[-] ═──────────────────⪧◇⪦─────────────────═ [-]                        ${plain}"
 
 #else
-#  echo -e "${red}Token is invalid or expired. Contact the developer https://t.me/nkka404 for more information.${plain}"
+#  echo -e "${red} " instance  ═──⪧  Firewall  ࿂  Done
 #fi
