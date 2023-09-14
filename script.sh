@@ -8,8 +8,8 @@ blue='\e[94m'   #အပြာရောင်
 magenta='\e[95m'#ပန်းခရမ်းရောင်
 cyan='\e[96m'   #စိမ်းပြာရောင်
 none='\e[0m'    #အရောင်မရှိ
-username="ypp26"
-password="ypp26"
+username="hha26"
+password="hha26"
 sshlimiter="1500"
 dias="2"
 servermessage="<h3><font color='red'>
@@ -54,26 +54,14 @@ echo -e "\033[1;32m              ◈ Expire Date   • ๛ \033[1;31m$gui"
 echo -e "\033[1;32m        [-] ═──────────────────⪧◇⪦─────────────────═ [-]"
 echo ""
 echo -e "${red}                  ◈────⪧  Y.Y.P SSH Servers ⪦────◈        ${plain}"
-echo -e "${green}                                                          ${plain}"
 echo -e "${green}                        ◈────⪧ Note  ⪦────◈             ${plain}"
-echo -e "${green}                                                          ${plain}"
 echo -e "${blue}                            HCM Channel                    ${plain}"
-echo -e "${green}                                                          ${plain}"
 echo -e "${green}                     [-]──⪧═───────◇───────═⪦──[-]      ${plain}"
-
-
 echo -e "${red}[-] ═────────────────────────────⪧◇⪦───────────────────────────═ [-]    ${plain}"
-echo -e "${green}                                                                       ${plain}"
 echo -e "${yellow}                      I want time to stop                             ${plain}"
-echo -e "${green}                                                                       ${plain}"
 echo -e "${blue}             Because I always want to be by your side                    ${plain}"
-echo -e "${green}                                                                       ${plain}"
 echo -e "${green}            ──────────⪧═───────◇───────═⪦──────────                   ${plain}"
-echo -e "${green}                                                                       ${plain}"
 echo -e "${cyan}                     S . S . H  A C C O U N T                           ${plain}"
-echo -e "${green}                                                                       ${plain}"
 echo -e "${green}    ࿂ ═───────⪧.  Now the thing is ready to use.  ⪦───────═  ࿂        ${plain}"
-echo -e "${green}                                                                       ${plain}"
 echo -e "${red}[-] ═────────────────────────────⪧◇⪦───────────────────────────═ [-]    ${plain}"
-echo -e "${red}                                                                         ${plain}"
 echo -e "${red}            [-]──⪧  Y Y P   S S H   S e r v r r  ⪦──[-]                 ${plain}"
