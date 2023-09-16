@@ -16,19 +16,20 @@ servermessage="<h3><font color='red'>
 HCM CHANNEL 
 </font></h3>
 
-<h4><font color='cyan'>
+<h><font color='cyan'>
 Mytel GCP Public SSH Key
-</font></h3>
+</3font></h3>
+
 <h4><font color='cyan'>
 Used Count ◈──⪧ 1,500
-</font></h3>
+</font></h4>
 
 <h3><font color='cyan'>
 Thank For your 
 </font></h3>
-Online 
-<h3><font color='red'>
 
+<h3><font color='red'>
+Online 
 </font></h3>"
 [[ $EUID -ne 0 ]] && echo -e "${red}Error: ${plain} You must use root user to run this script!\n" && exit 1
 
