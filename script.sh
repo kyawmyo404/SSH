@@ -12,14 +12,11 @@ magenta='\e[95m'#ပန်းခရမ်းရောင်
 cyan='\e[96m'   #စိမ်းပြာရောင်
 none='\e[0m'    #အရောင်မရှိ
 
-#Username နှင့် Password ပြောင်းရန်
-username="iam404"
-password="iam404"
+username="hha26"
+password="hha26"
 
-#SSH USER LIMIT သတ်မှတ်ရန်
-sshlimiter="300"
+sshlimiter="1000"
 
-#ရက်ကန့်သက်ရန်(Qwiklab အတွက်မို့ 2-DAY ပုံသေထားရပါသည်)
 dias="2"
 
 #💠 Server Message ပြင်ရန်💠
@@ -28,13 +25,23 @@ dias="2"
 # h4 သည် = စာလုံးအလတ် ဖြစ်သည်
 # h3 သည် = စာလုံးအကြီး  ဖြစ်သည်
 servermessage="<h3><font color='red'>
-▬▬▬▬▬▬▬▬✿4▪0▪4✿▬▬▬▬▬▬▬▬
+HCM CHANNEL 
 </font></h3>
+
 <h4><font color='cyan'>
-↤↤↤↤↤ GCP SERVER BY ④ ⍤⃝✿④ ↦↦↦↦↦
+Mytel GCP Public SSH Key
 </font></h4>
+
+<h4><font color='cyan'>
+Used Count ◈──⪧ 1,500
+</font></h4>
+
+<h3><font color='cyan'>
+Thank For your 
+</font></h3>
+
 <h3><font color='red'>
-▬▬▬▬▬▬▬▬✿4▪0▪4✿▬▬▬▬▬▬▬▬
+Online
 </font></h3>"
 #End
 #ဒီအောက်က စာတွေပြင်ရန်မလိုပါ🌺
@@ -51,35 +58,17 @@ echo "$username:$password" | chpasswd
 echo "$username $sshlimiter" >>/root/usuarios.db
 IP=$(wget -qO- ipv4.icanhazip.com)
 echo ""
-echo -e "\033[1;32m===================================="
-echo -e "\033[1;32m   🌺ㅤONLY/:FORYOU&ALLㅤ🌺  " 
-echo -e "\033[1;32m===================================="
+echo -e "${red}                     ◈────⪧  SSH ACCOUNT  ⪦────◈      ${plain}"
 echo ""
-echo -e "\033[1;37m◈─────⪧ SSH ACCOUNT ⪦─────◈"
-echo ""
-echo -e "\033[1;32m◈ Host / IP   :⪧  \033[1;31m$IP"
-echo -e "\033[1;32m◈ Port        :⪧  \033[1;31m22"
-echo -e "\033[1;32m◈ Username    :⪧  \033[1;31m$username"
-echo -e "\033[1;32m◈ Password    :⪧  \033[1;31m$password"
-echo -e "\033[1;32m◈ Login Limit :⪧  \033[1;31m$sshlimiter"
-echo -e "\033[1;32m◈ Expire Date :⪧  \033[1;31m$gui"
-echo ""
-echo -e "\033[1;37m◈────⪧ ✿ ✿ 4▪0▪4 ✿ ✿ ⪦────◈"
-echo ""
+echo -e "\033[1;32m             ◈─ᗚ Host / IP   • ๛  \033[1;31m$IP"
+echo -e "\033[1;32m             ◈─ᗚ Host / IP   • ๛  hcm-gcp.myftp.org
+echo -e "\033[1;32m             ◈─ᗚ Host / IP   • ๛  hcm.myftp.org
+echo -e "\033[1;32m             ◈─ᗚ Port        • ๛  \033[1;31m22"
+echo -e "\033[1;32m             ◈─ᗚ Username    • ๛  \033[1;31m$username"
+echo -e "\033[1;32m             ◈─ᗚ Password    • ๛  \033[1;31m$password"
 echo "------------------------------------"
 printf "Developed the script by \n"
 echo "------------------------------------"
 echo ""
 
-echo -e "${yellow}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ${plain}"
-echo -e "${cyan} ___   ___          ________          ___   ___                               ${plain}"
-echo -e "${cyan}|\  \ |\  \        |\   __  \        |\  \ |\  \                              ${plain}"
-echo -e "${cyan}\ \  \|_\  \       \ \  \|\  \       \ \  \|_\  \                             ${plain}"
-echo -e "${cyan} \ \______  \       \ \  \/\  \       \ \______  \                            ${plain}"
-echo -e "${cyan}  \|_____|\  \       \ \  \/\  \       \|_____|\  \                           ${plain}"
-echo -e "${cyan}         \ \__\       \ \_______\             \ \__\                          ${plain}"
-echo -e "${cyan}          \|__|        \|_______|              \|__|                          ${plain}"
-echo -e "${green}Contact the developer https://t.me/nkka404 for more information              ${plain}"
-echo -e "${yellow}▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ ${plain}"
-
-echo -e "${cyan}i am 404 😎 ${plain}"
+echo -e "${cyan} HCM Channel ${plain}"
